@@ -1,5 +1,11 @@
 node_modules/
 .vscode/
-*.js
+
+# Publishing only to git, so need the js
+#*.js
+# Dont want spec js
+spec/**/*.js
+
+
 !**/*.in.js
 !**/*.out.js
