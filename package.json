@@ -10,7 +10,8 @@
     "typescript": "^2.2.1"
   },
   "scripts": {
-    "test": "tsc & jasmine --no-color"
+    "test": "tsc & jasmine --no-color",
+    "build": "tsc"
   },
   "author": "Antonino Porcino <nino.porcino@gmail.com>",
   "contributors": [
